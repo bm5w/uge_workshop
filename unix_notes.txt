@@ -1,0 +1,81 @@
+cd //change directory
+pwd //print working directory
+history | less | sort //pipe history into less then into sort
+history | sort | less
+history | less
+history 3 //does not work well in fish, searches history for all entries with 3
+man history //opens manual for command history
+history
+ls . //lists current directory
+ls Desktop/
+ls
+ls /Desktop
+cd
+cd ~
+cd /
+pw
+la
+cd ../Pictures/
+cd ../python-dev-accelerator/
+cd Movies
+cd ..
+cd ../Music/
+cd Desktop
+cd Desktop/
+ls -l
+ll
+cd DESKTOP/
+cd /Users/mark
+cd~
+man ls
+ls -x
+man ls -h
+man cmd k
+man k
+man ls -G
+man G
+q
+man ls -l
+man
+man ll
+ls -t
+ls -rt
+ls -rl
+ls -rlt
+ls -r
+ls -lt
+ls -a
+cd -a
+git config -l | sort
+git config -l sort
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'saiget@gmail.com'
+git config --global user.name 'Mark Saiget'
+git config --global user.name
+git config
+git status
+echo $PATH
+which $PATH
+which uname
+git --version
+echo $EDITOR
+brew info fis
+brew info fish
+brew in
+fish_update_completions 
+curl -fsSL http://git.io/ykpkfQ > ~/.config/fish/functions/fish_prompt.fish
+subl .config/fish/functions/fish_prompt.fish
+'
+
+'
+mkdir -p .config/fish/functions/
+ruby -v
+which ruby
+curl -fsSL http://git.io/FzAR | ruby
+echo $SHELL
+ech $SHELL
+brew doctor
+brew update
+ls -G
+uname
