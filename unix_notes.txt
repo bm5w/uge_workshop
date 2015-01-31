@@ -1,3 +1,4 @@
+la is shorthand for ls -la
 cd //change directory
 pwd //print working directory
 history | less | sort //pipe history into less then into sort
