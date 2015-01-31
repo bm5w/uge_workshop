@@ -1,0 +1,21 @@
+git blame unix_notes.txt
+    useful for determining why someone put changes there
+
+each commit has a label:
+    head: points to most recent commit
+    master: points to first branch (created by git init)
+
+    branch: is a label that points to a specific place in time
+    make a branch: git branch
+        adds a new label to current commit, it does not check out that branch
+git branch git-notes
+    creates another label that points at the last commits
+git branch
+    lists all the branches
+git checkout git-notes
+    switched to branch git-notes
+git branch
+    lists all the branches, and confirms we are on git-notes
+touch git_notes.txt
+    creates file git_notes.txt
+    if it already exists, it updates the modified time
